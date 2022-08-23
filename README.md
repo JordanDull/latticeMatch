@@ -24,8 +24,8 @@
       M = union(S-T, T-S).area/S.area
       ```
   - For `T` the triplet can also be `(a, c, beta)`(`010` plane),
-  `(b, c, alpha)`(`100` plane), (`110` plane), (`101` plane), or (`011` plane) the smallest `M` is used.
-  - Only aforementioned three low-index planes are considered.
+  `(b, c, alpha)`(`100` plane), (`110` plane), (`101` plane), or (`011` plane). The smallest `M` is used.
+  - Only aforementioned six low-index planes are considered.
 - `python match.py` will read `latadata.csv` and generate `match_results.xlsx`.
 - `match_results.xlsx` last column contains the calculated similarity
 
